@@ -5,6 +5,8 @@ import win32com.client
 import pyperclip
 import webbrowser
 from datetime import datetime 
+import tkinter as tk
+from tkinter import messagebox
 
 
 # Ruta de los scripts VBScript
@@ -188,3 +190,14 @@ time.sleep(1)
 time.sleep(1)
 pyautogui.press('tab')  
 time.sleep(1)
+
+
+# Crear la ventana principal oculta
+root = tk.Tk()
+root.withdraw()  # Ocultar la ventana principal
+
+# Mostrar ventana emergente
+messagebox.showinfo("Proceso finalizado", "¡Ejecución completada!\nTodo ha terminado.")
+
+# Cerrar la aplicación después de mostrar el mensaje
+root.destroy()
