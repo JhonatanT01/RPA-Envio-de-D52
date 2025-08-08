@@ -9,9 +9,12 @@ import tkinter as tk
 from tkinter import messagebox
 
 
+
+
 # Ruta de los scripts VBScript
 ruta_EnvioD52 = r"C:/Users/NCACUAXSERLO/AppData/Roaming/SAP/SAP GUI/Scripts/ReporteD52R.vbs"
 
+#funcionpara abrir el navegador
 def abrir_url(url, espera=10):
     webbrowser.open(url)
     time.sleep(espera)  # Esperar a que la página cargue completamente
