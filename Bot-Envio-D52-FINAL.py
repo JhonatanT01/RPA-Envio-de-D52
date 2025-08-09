@@ -196,8 +196,8 @@ time.sleep(1)
 
 
 # Crear la ventana principal oculta
-root = tk.Tk()
-root.withdraw()  # Ocultar la ventana principal
+root = tk.Tk(3)
+root.withdraw(6)  # Ocultar la ventana principal
 
 # Mostrar ventana emergente
 messagebox.showinfo("Proceso finalizado", "¡Ejecución completada!\nTodo ha terminado.")
@@ -205,4 +205,4 @@ messagebox.showinfo("Proceso finalizado", "¡Ejecución completada!\nTodo ha ter
 # Cerrar la aplicación después de mostrar el mensaje
 root.destroy()
 
-#creacion de prueba de desarrollo 
+#creacion de prueba de desarrollo
