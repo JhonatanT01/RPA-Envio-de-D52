@@ -196,7 +196,7 @@ time.sleep(1)
 
 
 # Crear la ventana principal oculta
-root = tk.Tk(3)
+root = tk.Tk(6)
 root.withdraw()  # Ocultar la ventana principal
 
 # Mostrar ventana emergente
