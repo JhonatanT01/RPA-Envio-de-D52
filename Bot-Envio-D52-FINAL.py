@@ -200,7 +200,7 @@ root = tk.Tk(3)
 root.withdraw()  # Ocultar la ventana principal
 
 # Mostrar ventana emergente
-messagebox.showinfo("Proceso finalizado", "¡Ejecución completada!\nTodo ha terminado.")
+messagebox.showinfo("Proceso fin", "¡Ejecución completada!\nTodo ha terminado.")
 
 # Cerrar la aplicación después de mostrar el mensaje
 root.destroy()
